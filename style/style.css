@@ -1,0 +1,172 @@
+/*reset browser css */
+button{
+	outline: none !important;
+}
+
+.row{
+	margin: 0px;
+}
+.recipeDisplayList{
+	margin-top: 20px;
+}
+.box-wrapper{
+	border: 1px solid #ccc;
+}
+.form-group .col-xs-10{
+	display: inline;
+}
+.no-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.page-name span{
+	border-bottom: 1px solid #000;
+	padding: 0px 4px 3px 4px;
+	text-decoration: none;
+}
+.card-wrapper:first-child > .card{
+	border: 1px solid #ccc;
+}
+.card{
+	border-style: solid;
+  border-width: 0px 1px 1px 1px;
+  border-color: #ccc;
+	padding: 10px 20px 20px 20px;
+}
+.card-title{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	cursor:pointer;
+}
+.card-title .pull-right{
+	font-family: 'Roboto', sans-serif;
+}
+.card-category-title,
+.card-category-list,
+.action-btn,
+.control-label,
+.page-name{
+	font-family: 'Raleway', sans-serif;
+	font-family: 300;
+}
+.action-btn{
+	background: transparent;
+	color: black;
+	border-color: #ccc;
+	border-radius: 2px;
+}
+.action-btn:hover{
+	background: transparent;
+	border-color: black;
+	color: black;
+}
+.action-btn:focus{
+	background: transparent;
+	border-color: black;
+	color: black;
+}
+.action-btn:active,
+.action-btn:active:focus,
+.btn-primary:active:hover{
+	background: transparent;
+	border-color: black;
+	color: black;
+}
+.btn:active{
+	box-shadow: inset 0 0px 0px rgba(0,0,0,0)
+}
+.editBox{
+	margin: 10px;
+}
+.box-wrapper{
+	padding: 20px 0px 20px 20px;
+}
+.form-control{
+	border-radius: 0px;
+	margin-top: 5px;
+}
+.form-control:focus{
+	border-color: #ccc;
+	box-shadow: inset 0 0px 0px rgba(0,0,0,0), 0 0 0px rgba(102, 175, 233, 0);
+}
+.form-group{
+	margin: 20px 0px 35px 0px;
+}
+.form-group .action-btn{
+	font-size: 30px;
+	padding: 5px;
+	line-height: 22px;
+	font-family: 'Roboto', sans-serif;
+	border-color: #ccc;
+	color: #ccc;
+	margin-top: 5px;
+}
+.action-btn-wrapper{
+	padding: 0px;
+}
+.editBox-action-btn{
+	margin: 0px 5px;
+}
+.card .action-btn{
+	margin: 0px 5px;
+}
+.list-inline{
+	margin-left: 0px;
+}
+.editBox .list-inline>li,
+.editBox .list-unstyled>li{
+	background: #eee;
+	padding: 8px;
+	border-radius: 2px;
+	margin: 5px 5px 5px 0px;
+	cursor: pointer;
+}
+.editBox .list-inline>li:hover,
+.editBox .list-unstyled>li:hover{
+	background: #d9534f;
+	border-color: #d43f3a;
+	color: white;
+}
+.editBox ul{
+	margin-bottom: 0px;
+}
+.list-wrapper{
+	padding-left: 5px;
+}
+.add-btn{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px 30px;
+	border-color: gray;
+}
+.sort-btn{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.form-control-wrapper,
+	.list-wrapper{
+		padding-right: 5px;
+	}
+	.form-group{
+		margin-bottom: 20px;
+	}
+	.box-wrapper{
+		padding-left: 10px;
+	}
+	.editBox> .container{
+		padding: 0px;
+	}
+	.hidden-sm{
+		display: block;
+	}
+}
+@media screen and (min-width: 768px){
+	.hidden-sm{
+		display: none !important;
+	}
+	.form-horizontal .control-label{
+		padding-top: 12px;
+	}
+}
